@@ -1,0 +1,63 @@
+
+
+.nav{
+  background-color: #51a6b36b;
+  
+}
+.home{
+  background-image:url(Images/home\ bg.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+
+/* service */
+
+.serviceIcon{
+
+  font-size: 50px;
+}
+
+
+.footer{
+  background-color: #51a6b36b ;
+  padding: 10px;
+}
+
+.footer p {
+  margin-bottom: 0;
+
+}
+
+
+
+/* appointment */
+
+
+.appointment{
+  background-image:url(Images/appointment.jpg);
+  height: 90vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.appLayer{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(47, 44, 44, 0.468);
+}
+
+
+
+/* waitingRoom */
+
+.waitingRoom{
+  
+  background-image:url(Images/waitingRoom.jpg);
+  height: 90vh;
+  background-position: center center;
+  background-size: cover;
+}
