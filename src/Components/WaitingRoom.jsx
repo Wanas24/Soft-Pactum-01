@@ -30,13 +30,12 @@ function WaitingRoom() {
   };
 
   return (
-    <div className='waitingRoom'>
-      <div className="counter" onClick={nextNumber}>
-        {currentNumber}
+    <div className='waitingRoom d-flex justify-content-center'>
+      <div className="counter " onClick={nextNumber}>
+        <div className="message">المريض التالي رقم {currentNumber}</div>
       </div>
-      <div className="message">المريض التالي رقم {currentNumber}</div>
 
-      <h1>hello</h1>
+      
     </div>
   );
 }
