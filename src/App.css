@@ -61,3 +61,16 @@
   background-position: center center;
   background-size: cover;
 }
+
+
+.counter {
+  font-size: 36px;
+  cursor: pointer;
+  border-radius: 50%; /* Make the counter circular */
+  padding: 10px; /* Add some padding for better visual appearance */
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+}
